@@ -1,8 +1,4 @@
-package com.infostretch.mock;
-
-import com.infostretch.IGetFizzBuzz;
-import com.infostretch.IObjectVal;
-import com.infostretch.IRangeVal;
+package com.infostretch;
 
 public class Flow implements IFlowTest{
     private IObjectVal  _IOV;

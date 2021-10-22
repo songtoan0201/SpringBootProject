@@ -2,12 +2,11 @@ package com.infostretch.test;
 
 import org.junit.jupiter.api.Test;
 
-
+import com.infostretch.Flow;
+import com.infostretch.IFlowTest;
 import com.infostretch.IGetFizzBuzz;
 import com.infostretch.IObjectVal;
 import com.infostretch.IRangeVal;
-import com.infostretch.mock.Flow;
-import com.infostretch.mock.IFlowTest;
 
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.runner.RunWith;
