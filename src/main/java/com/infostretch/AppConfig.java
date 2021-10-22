@@ -8,9 +8,12 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @SpringBootApplication
 public class AppConfig {
-	
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(AppConfig.class, args);
+		
+		AppConfig app = new AppConfig();
+		IFlowTest test = app.createFlowTest();
+		System.out.println(test.getResult("five"));
 	}
 	
 	@Bean(name = "IObjectVal")
